@@ -6,7 +6,12 @@ name = "pypi"
 [packages]
 
 [dev-packages]
-ipykernel = "*"
+build = "*"
+twine = "*"
+black = "*"
+flake8 = "*"
+isort = "*"
+
 
 [requires]
-python_version = "3.9"
+python_version = "3.10"
